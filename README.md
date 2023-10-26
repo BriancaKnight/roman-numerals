@@ -7,6 +7,10 @@ Test: It will change the stored user number to a string
 code: userArabic(100)
 Expected Result: "100"
 
+Test:It will separate numbers smaller than 3999
+Code: userArabic(100)
+Expected Result: Good Number
+
 Test: It will change the integer "1" to the letter "I".
 Code: userArabic(100)
 Expected Result: I00

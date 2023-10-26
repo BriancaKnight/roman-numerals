@@ -8,5 +8,6 @@ window.addEventListener("load", function() {
 function arabicNumberStored(e) {
   e.preventDefault();
   let userArabic = document.getElementById("arabicNumber").value;
-  console.log(userArabic)
+  const stringUserArabic = userArabic.toString();
+  console.log(stringUserArabic)
 }
